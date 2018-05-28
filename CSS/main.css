@@ -1,0 +1,205 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: #424242;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color: #2d3c49;
+	margin-top:20px;
+	letter-spacing:2px;
+	text-align: center;
+	display: block;
+	font-size: 13px;
+}
+
+.text__light {
+	font-family: 'Raleway', sans-serif;
+	color: #7d97ad;
+	text-align: center;
+	font-size: 12px;
+	margin-top:20px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #2d3c49;
+	margin-top:20px;
+	letter-spacing:2px;
+	display: block;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color: #02b3e4;
+	display: block;
+	font-size: 18px;
+	letter-spacing: 4px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3,h4 {
+	font-family: 'Noto Serif', serif;
+	color: #2d3c49;
+	display: block;
+	letter-spacing:1px;
+	font-size: 13px;
+}
+
+h5 {
+	margin: 0;
+}
+
+header,footer,section,article,div {
+	box-sizing: border-box;
+}
+
+
+/* Image */
+
+.img__full {
+	width: 100%;
+}
+
+/* Header */
+
+.header {
+	min-height: 56px;
+	transition: min-height 0.3s;
+}
+
+.header__inner {
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #7d97ad;
+}
+
+.header__logo {
+	height: 55px;
+	margin-top:20px;
+	display:block;
+}
+
+.header__name {
+	font-weight: 300;
+	display: block;
+	text-align: center;
+}
+
+.header__title {
+	font-weight: 100;
+	display: block;
+	text-align: center;
+}
+
+}
+/* Footer */
+
+footer {
+	padding: 1em;
+	width: 100%;
+}
+
+footer li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+footer a {
+	text-decoration: none;
+	color: #333;
+	padding: 1.5em;
+}
+
+.footer__inner {
+	width: 100%;
+	border-top: 1px solid #7d97ad;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 450px) {
+	.header__name {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		display: block;
+	}
+
+	.header__logo {
+		margin-right: auto;
+		margin-left: auto;
+		height: 45px;
+	}
+
+	.header {
+		padding-top: 5px;
+	}
+
+	h1 {
+		font-size: 21px;
+	}
+
+	h2 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header__name {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		display: block;
+	}
+
+	.header__logo {
+		margin-right: auto;
+		margin-left: auto;
+		height: 45px;
+	}
+
+	.header {
+		padding-top: 5px;
+	}
+
+	h1 {
+		font-size: 21px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.header__name {
+		float: right;
+		display: block;
+		padding-left: 50%;
+	}
+
+	.header__title {
+		float: right;
+		display: block;
+	}
+  
+	.header__logo {
+		height: 55px;
+		margin-top:20px;
+		float:left;
+	}
+}
